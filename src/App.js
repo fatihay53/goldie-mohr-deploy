@@ -1,34 +1,35 @@
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import About from "./Pages/About"
-import React from 'react'
+import React, { useState } from 'react'
 import Wrapper from './Components/Wrapper'
 import Contact from "./Pages/Contact"
 import Footer from './Components/Footer'
 import Service from "./Pages/Services"
-import Navbar from "./Components/Navbar"
 import Home from "./Pages/Home/index"
-import Login from "./Pages/Login/index"
 import Career from "./Pages/Career"
-import Register from "./Pages/Register"
+import Register from "./Pages/Register/index"
 import Product from "./Pages/Products/index"
 import Training from "./Pages/Training/index"
+import Login from "./Pages/Login"
 
-
+import CardProfile from "./Pages/Profile/index"
 function App() {
   return (
     <Router>
       <div>
-        <Navbar />
-        <Wrapper>
+      <Wrapper>
+          <Login/>
           <Route exact path="/Contact" component={Contact} />
           <Route exact path="/About" component={About} />
           <Route exact path="/" component={Home} />
           <Route exact path="/Service" component={Service} />
           <Route exact path="/Product" component={Product} />
           <Route exact path="/Career" component={Career} />
-          <Route exact path="/Login" component={Login} />
           <Route exact path="/Training" component={Training} />
           <Route exact path="/Register" component={Register} />
+          <Route exact path="/Login" component={Login} />
+          <Route exact path="/Profile" component={CardProfile} />
+
         </Wrapper>
         <Footer />
       </div>
