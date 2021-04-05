@@ -48,10 +48,10 @@ function Navbar(props) {
         <li><a target="_blank" href="https://twitter.com/goldiemohrltd"><i class="fab fa-twitter"></i></a></li>
         <li className="ms-auto" id="faUser"><a href="#"></a></li>
         {localStorage.session &&  <nav class="navbar navbar-expand-lg navbar-light bg-light">{localStorage.name}</nav>}
-        <div class="dropdown">
+        {/* <div class="dropdown">
         <button class="dropbtn" ><NavLink to="./Login"><i class="fas fa-user fa-lg userColor"></i></NavLink></button>
-        <div class="dropdown-content">
-          {!localStorage.session &&
+        <div class="dropdown-content"> */}
+          {/* {!localStorage.session &&
           <>
           <a onClick={props.handleModal}>Login</a>
           <NavLink to="/register" className="navbar-brand">Register</NavLink> </>         }
@@ -60,13 +60,13 @@ function Navbar(props) {
             <NavLink to="/Profile" className="navbar-brand">Profile</NavLink>
             <a onClick={logoutUser}>Logout</a>
             </>
-          }
+          } */}
           {/* // <a href="./Training"></a>
           // <a href="#">Profile</a> 
           // <a onClick={logoutUser}>Logout</a> */}
 
-        </div>
-      </div>
+        {/* </div> */}
+      {/* </div> */}
       </ul>
     </div>
   </section>

@@ -11,7 +11,7 @@ function Product() {
 
         <>
 
-            <div id="products">
+            <div className="banner_area" id="products">
                 <h1 id="productTitle">PRODUCTS</h1>
             </div>
 

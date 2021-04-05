@@ -5,7 +5,7 @@ import './style.css'
 function Career() {
     return (
         <>
-            <div id="careerImage">
+            <div className="banner_area" id="careerImage">
                 <h1 id="careerTitle">CAREERS</h1>
             </div>
             <div className="container">

@@ -25,10 +25,10 @@ function App() {
           <Route exact path="/Service" component={Service} />
           <Route exact path="/Product" component={Product} />
           <Route exact path="/Career" component={Career} />
-          <Route exact path="/Training" component={Training} />
+          {/* <Route exact path="/Training" component={Training} />
           <Route exact path="/Register" component={Register} />
           <Route exact path="/Login" component={Login} />
-          <Route exact path="/Profile" component={CardProfile} />
+          <Route exact path="/Profile" component={CardProfile} /> */}
 
         </Wrapper>
         <Footer />

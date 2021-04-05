@@ -85,32 +85,16 @@ function About() {
               <div className="single_skill">
                 <h3>Demolition</h3>
                 <div className="progress">
-                  <div className="progress-bar" role="progressbar" aria-valuenow={58} aria-valuemin={0} aria-valuemax={100} style={{ width: "58%" }}>
-                    <div className="progress_parcent"><span className="counter2">58</span>%</div>
+                  <div className="progress-bar" role="progressbar" aria-valuenow={15} aria-valuemin={0} aria-valuemax={100} style={{ width: "15%" }}>
+                    <div className="progress_parcent"><span className="counter2">15</span>%</div>
                   </div>
                 </div>
               </div>
               <div className="single_skill">
-                <h3>Road Construction</h3>
+                <h3>Road & Building Construction</h3>
                 <div className="progress">
-                  <div className="progress-bar" role="progressbar" aria-valuenow={44} aria-valuemin={0} aria-valuemax={100} style={{ width: "44%" }}>
-                    <div className="progress_parcent"><span className="counter2">44</span>%</div>
-                  </div>
-                </div>
-              </div>
-              <div className="single_skill">
-                <h3>Building Construction</h3>
-                <div className="progress">
-                  <div className="progress-bar" role="progressbar" aria-valuenow={76} aria-valuemin={0} aria-valuemax={100} style={{ width: "76%" }}>
-                    <div className="progress_parcent"><span className="counter2">76</span>%</div>
-                  </div>
-                </div>
-              </div>
-              <div className="single_skill">
-                <h3>Transportation</h3>
-                <div className="progress">
-                  <div className="progress-bar" role="progressbar" aria-valuenow={64} aria-valuemin={0} aria-valuemax={100} style={{ width: "64%" }}>
-                    <div className="progress_parcent"><span className="counter2">64</span>%</div>
+                  <div className="progress-bar" role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} style={{ width: "60%" }}>
+                    <div className="progress_parcent"><span className="counter2">60</span>%</div>
                   </div>
                 </div>
               </div>
@@ -133,8 +117,8 @@ function About() {
               <div className="single_skill">
                 <h3>Winter Maintenance</h3>
                 <div className="progress">
-                  <div className="progress-bar" role="progressbar" aria-valuenow={64} aria-valuemin={0} aria-valuemax={100} style={{ width: "64%" }}>
-                    <div className="progress_parcent"><span className="counter2">64</span>%</div>
+                  <div className="progress-bar" role="progressbar" aria-valuenow={40} aria-valuemin={0} aria-valuemax={100} style={{ width: "40%" }}>
+                    <div className="progress_parcent"><span className="counter2">40</span>%</div>
                   </div>
                 </div>
               </div>
