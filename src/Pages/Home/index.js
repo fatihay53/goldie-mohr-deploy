@@ -91,11 +91,11 @@ function Home() {
                                                 </VisibilitySensor>
                                             )}
                                         </CountUp>
-                                        <h6>HOUSE RENOVATIONS</h6>
+                                        <h6>HEAVY CIVIL CONSTRUCTION</h6>
                                     </div>
                                     <div class="col-md-3 col-sm-6 p0 completed">
                                         <i class="fa fa-child" aria-hidden="true"></i>
-                                        <CountUp end={100} redraw={true}>
+                                        <CountUp end={60} redraw={true}>
                                             {({ countUpRef, start }) => (
                                                 <VisibilitySensor onChange={start} delayedCall>
                                                     <span style={{color:'white'}} class="counter" ref={countUpRef} />
